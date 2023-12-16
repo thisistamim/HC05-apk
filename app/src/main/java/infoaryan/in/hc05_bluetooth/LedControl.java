@@ -53,7 +53,7 @@ public class LedControl extends AppCompatActivity {
         btnDis.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick (View v) {
-                Disconnect();
+                sendSignal("0");
             }
         });
     }
